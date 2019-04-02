@@ -131,25 +131,25 @@ article .panel-content .wrap {
   max-width: 840px;
 }
 
-article .panel-content .wrap .entry-header {
+article .entry-header {
   margin-bottom: 0;
   width: 100% !important;
 }
 
-article .panel-content .wrap .entry-header .entry-title {
+article .entry-header .entry-title {
   font-size: 24px;
   color: #cb3031;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-article .panel-content .wrap .entry-content,
-article .panel-content .wrap .recent-posts {
+article .entry-content,
+article .recent-posts {
   width: 100% !important;
 }
 
-article .panel-content .wrap .entry-content h2,
-article .panel-content .wrap .recent-posts h2 {
+article .entry-content h2,
+article .recent-posts h2 {
   font-size: 16px;
   color: #000;
   letter-spacing: 1px;

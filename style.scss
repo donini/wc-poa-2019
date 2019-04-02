@@ -141,27 +141,27 @@ article {
     .panel-content {
         .wrap {
             max-width: 840px;
-            .entry-header {
-                margin-bottom: 0;
-                width: 100% !important;
-                .entry-title {
-                    font-size: $h2-size;
-                    color: $red;
-                    letter-spacing: 1px;
-                    text-transform: uppercase;
-                }
-            }
-            .entry-content,
-            .recent-posts {
-                width: 100% !important;
-                h2 {
-                    font-size: $h4-size;
-                    color: $black;
-                    letter-spacing: 1px;
-                    text-transform: uppercase;
-                    margin-bottom: 30px;
-                }
-            }
+        }
+    }
+    .entry-header {
+        margin-bottom: 0;
+        width: 100% !important;
+        .entry-title {
+            font-size: $h2-size;
+            color: $red;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    }
+    .entry-content,
+    .recent-posts {
+        width: 100% !important;
+        h2 {
+            font-size: $h4-size;
+            color: $black;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
         }
     }
 }
