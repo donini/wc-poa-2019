@@ -48,8 +48,8 @@ button:hover {
   background-color: #222;
 }
 
-.subscribe-email,
-.subscribe-submit {
+#subscribe-email,
+#subscribe-submit {
   margin-top: 15px;
 }
 
@@ -162,9 +162,9 @@ article .panel-content .wrap .recent-posts h2 {
 .entry-summary a,
 .comment-content a,
 .posts-navigation a {
-  -wekit-box-shadow: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  -wekit-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .widget-area a:hover,
@@ -172,9 +172,9 @@ article .panel-content .wrap .recent-posts h2 {
 .entry-summary a:hover,
 .comment-content a:hover,
 .posts-navigation a:hover {
-  -wekit-box-shadow: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  -wekit-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .home .post-208 {
@@ -278,6 +278,10 @@ article .panel-content .wrap .recent-posts h2 {
   color: #000;
 }
 
+footer {
+  border: 0;
+}
+
 footer .widget-area .widget-column .widget {
   margin-bottom: 20px;
 }
@@ -295,9 +299,13 @@ footer .widget-area .widget-column .widget_blog_subscription p {
 footer .widget-area .widget-column .wcb_widget_sponsors .sponsor-level .sponsor-level-title {
   color: #6e6f70;
   text-transform: uppercase;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-  border-bottom: 1px solid #dcdcdc;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #dcdcdc;
+}
+
+footer .widget-area .widget-column .wcb_widget_sponsors .sponsor-level .sponsor-level-title:first-child {
+  border: 0;
 }
 
 footer .widget-area .widget-column .wcb_widget_sponsors .sponsor-level .sponsor-logo {

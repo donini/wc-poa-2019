@@ -62,8 +62,8 @@ button {
     }
 }
 
-.subscribe-email,
-.subscribe-submit {
+#subscribe-email,
+#subscribe-submit {
     margin-top: 15px;
 }
 
@@ -172,11 +172,11 @@ article {
 .comment-content,
 .posts-navigation {
     a {
-        -wekit-box-shadow: none;
-        box-shadow: none;
+        -wekit-box-shadow: none !important;
+        box-shadow: none !important;
         &:hover {
-            -wekit-box-shadow: none;
-            box-shadow: none;
+            -wekit-box-shadow: none !important;
+            box-shadow: none !important;
         }
     }
 }
@@ -277,6 +277,7 @@ article {
 }
 
 footer {
+    border: 0;
     .widget-area {
         .widget-column {
             .widget{
@@ -297,10 +298,12 @@ footer {
                     .sponsor-level-title {
                         color: $mid-gray;
                         text-transform: uppercase;
-                        margin-bottom: 15px;
-                        padding-bottom: 15px;
-                        border-bottom: 1px solid $light-gray;
-
+                        margin-top: 15px;
+                        padding-top: 15px;
+                        border-top: 1px solid $light-gray;
+                        &:first-child {
+                            border: 0;
+                        }
                     }
                     .sponsor-logo {
                         float: left;
