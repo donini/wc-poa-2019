@@ -5,10 +5,10 @@ $white: #fff;
 $black: #000;
 
 $paragraph-size: 18px;
-$h1-size: 24px;
-$h2-size: 22px;
+$h1-size: 28px;
+$h2-size: 24px;
 $h3-size: 20px;
-$h4-size: 18px;
+$h4-size: 16px;
 $menu-size: 18px;
 
 body {
@@ -107,7 +107,8 @@ article {
     .panel-content {
         .wrap {
             .entry-header {
-                width: 100%;
+                margin-bottom: 0;
+                width: 100% !important;
                 .entry-title {
                     font-size: $h2-size;
                     color: $red;
@@ -116,7 +117,7 @@ article {
                 }
             }
             .entry-content {
-                width: 100%;
+                width: 100% !important;
                 h2 {
                     font-size: $h4-size;
                     color: $black;
@@ -130,4 +131,9 @@ article {
 
 .home .twentyseventeen-panel {
     text-align: center;
+    .panel-content {
+        background-image: url(https://2019.portoalegre.wordcamp.org/files/2019/04/logo-fundo2.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
 }

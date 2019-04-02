@@ -9,12 +9,12 @@ p {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 28px;
   color: #cb3031;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 24px;
   color: #cb3031;
 }
 
@@ -24,7 +24,7 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   color: #000;
 }
 
@@ -91,22 +91,23 @@ h4 {
 }
 
 article .panel-content .wrap .entry-header {
-  width: 100%;
+  margin-bottom: 0;
+  width: 100% !important;
 }
 
 article .panel-content .wrap .entry-header .entry-title {
-  font-size: 22px;
+  font-size: 24px;
   color: #cb3031;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
 article .panel-content .wrap .entry-content {
-  width: 100%;
+  width: 100% !important;
 }
 
 article .panel-content .wrap .entry-content h2 {
-  font-size: 18px;
+  font-size: 16px;
   color: #000;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -114,5 +115,11 @@ article .panel-content .wrap .entry-content h2 {
 
 .home .twentyseventeen-panel {
   text-align: center;
+}
+
+.home .twentyseventeen-panel .panel-content {
+  background-image: url(https://2019.portoalegre.wordcamp.org/files/2019/04/logo-fundo2.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 /*# sourceMappingURL=style.css.map */
