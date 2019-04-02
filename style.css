@@ -1,5 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700);
 body {
   background-color: #fff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  color: #000;
+}
+
+h1 {
+  font-size: 24px;
+  color: #cb3031;
+}
+
+h2 {
+  font-size: 22px;
+  color: #cb3031;
+}
+
+h3 {
+  font-size: 20px;
+  color: #000;
+}
+
+h4 {
+  font-size: 18px;
+  color: #000;
 }
 
 .navigation-top {
@@ -9,8 +36,9 @@ body {
 }
 
 .navigation-top .menu-main-menu-container ul li a {
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: #fff;
+  font-size: 18px;
 }
 
 .navigation-top .menu-scroll-down {

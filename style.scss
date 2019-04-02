@@ -1,11 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700);
+
 $red: #cb3031;
 $mid-gray:#6e6f70;
 $light-gray: #dcdcdc;
 $white: #fff;
+$black: #000;
+
+$paragraph-size: 18px;
+$h1-size: 24px;
+$h2-size: 22px;
+$h3-size: 20px;
+$h4-size: 18px;
+$menu-size: 18px;
 
 body {
     background-color: $white;
+    font-family: 'Quicksand', sans-serif;
 }
+
+p {
+    font-size: $paragraph-size;
+    color: $black;
+}
+
+h1 {
+    font-size: $h1-size;
+    color: $red;
+}
+
+h2 {
+    font-size: $h2-size;
+    color: $red;
+}
+
+h3 {
+    font-size: $h3-size;
+    color: $black;
+}
+
+h4 {
+    font-size: $h4-size;
+    color: $black;
+}
+
 .navigation-top {
     background-color: $mid-gray;
     height: 76px;
@@ -14,8 +51,9 @@ body {
         ul {
             li {
                 a {
-                    text-transform: capitalize;
+                    text-transform: uppercase;
                     color: $white;
+                    font-size: $menu-size;
                 }
             }
         }
