@@ -41,6 +41,10 @@ h4 {
     color: $black;
 }
 
+.edit-link {
+    display: none;
+}
+
 .custom-header {
     .site-branding {
         margin-bottom: -105px !important;
@@ -95,6 +99,9 @@ h4 {
                     }
                 }
             }
+            ul {
+                background-color: $light-gray;
+            }
         }
     }
     .menu-scroll-down {
@@ -106,6 +113,7 @@ h4 {
 article {
     .panel-content {
         .wrap {
+            max-width: 840px;
             .entry-header {
                 margin-bottom: 0;
                 width: 100% !important;
@@ -123,17 +131,51 @@ article {
                     color: $black;
                     letter-spacing: 1px;
                     text-transform: uppercase;
+                    margin-bottom: 30px;
                 }
             }
         }
     }
 }
 
-.home .twentyseventeen-panel {
+.home .post-208 {
     text-align: center;
     .panel-content {
         background-image: url(https://2019.portoalegre.wordcamp.org/files/2019/04/logo-fundo2.png);
         background-repeat: no-repeat;
-        background-position: center bottom;
+        background-position: center -50%;
+        .wrap {
+            padding-bottom: 2em;
+            padding-top: 4em;
+        }
     }
+}
+
+.home .post-217 {
+    background-color: $red;
+    color: $white;
+    .panel-content {
+        .wrap {
+            padding: 3em !important;
+            .entry-header {
+                display: none;
+            }
+            .entry-content {
+                &:before,
+                &:after {
+                    content: '';
+                    display: block;
+                    height: 45px;
+                    width: 45px;
+                    background-color: $red;
+                    border: 5px solid $white;
+                    border-radius: 100%;
+                }
+            }
+        }
+    }
+}
+
+.home .post-211 {
+    background-color: $light-gray;
 }
