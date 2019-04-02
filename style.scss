@@ -41,6 +41,28 @@ h4 {
     color: $black;
 }
 
+.custom-header {
+    .site-branding {
+        .site-branding-text {
+            text-align: center;
+            .site-title {
+                &:before {
+                    content: '';
+                    display: block;
+                    background-image: url(https://2019.portoalegre.wordcamp.org/files/2019/04/wc-poa-2019.png);
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    max-width: 520px;
+                    width: 100%;
+                }
+            }
+            .site-description {
+                
+            }
+        }
+    }
+}
+
 .navigation-top {
     background-color: $mid-gray;
     border: 0;
