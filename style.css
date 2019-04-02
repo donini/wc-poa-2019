@@ -194,14 +194,24 @@ article .panel-content .wrap .recent-posts h2 {
   background-color: #dcdcdc;
 }
 
+.home .post-211 .panel-content .wrap {
+  padding: 3em !important;
+}
+
 .home .post-211 .panel-content .wrap .entry-header {
+  margin-bottom: 3em;
+}
+
+.home .post-211 .panel-content .wrap .entry-header .entry-title {
   text-align: center;
+  font-size: 54px;
 }
 
 .home .post-211 .panel-content .wrap .recent-posts article.post {
   background-color: #fff;
   border-radius: 50%;
-  padding: 1em;
+  padding: 1.5em;
+  text-align: left;
 }
 
 .home .post-211 .panel-content .wrap .recent-posts article.post .entry-meta {
@@ -214,8 +224,9 @@ article .panel-content .wrap .recent-posts h2 {
   color: #000;
 }
 
-.home .post-211 .panel-content .wrap .recent-posts article.post .entry-title {
+.home .post-211 .panel-content .wrap .recent-posts article.post .entry-title a {
   color: #cb3031;
+  font-weight: 500;
 }
 
 .home .post-211 .panel-content .wrap .recent-posts article.post .entry-summary p {

@@ -196,14 +196,20 @@ article {
     background-color: $light-gray;
     .panel-content {
         .wrap {
+            padding: 3em !important;
             .entry-header {
-                text-align: center;
+                margin-bottom: 3em;
+                .entry-title {
+                    text-align: center;
+                    font-size: 54px;
+                }
             }
             .recent-posts {
                 article.post {
                     background-color: $white;
                     border-radius: 50%;
-                    padding: 1em;
+                    padding: 1.5em;
+                    text-align: left;
                     .entry-meta {
                         margin-bottom: 20px;
                         padding-bottom: 20px;
@@ -213,7 +219,10 @@ article {
                         }
                     }
                     .entry-title {
-                        color: $red;
+                        a {
+                            color: $red;
+                            font-weight: 500;
+                        }
                     }
                     .entry-summary {
                         p {
