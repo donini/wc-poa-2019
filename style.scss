@@ -6,3 +6,21 @@ $white: #fff;
 body {
     background-color: $white;
 }
+.navigation-top {
+    background-color: $mid-gray;
+    height: 76px;
+    border: 0;
+    .menu-main-menu-container {
+        ul {
+            li {
+                a {
+                    text-transform: capitalize;
+                    color: $white;
+                }
+            }
+        }
+    }
+    .menu-scroll-down {
+        display: none;
+    }
+}

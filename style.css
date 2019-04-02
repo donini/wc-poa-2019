@@ -1,4 +1,19 @@
 body {
   background-color: #fff;
 }
+
+.navigation-top {
+  background-color: #6e6f70;
+  height: 76px;
+  border: 0;
+}
+
+.navigation-top .menu-main-menu-container ul li a {
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.navigation-top .menu-scroll-down {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
