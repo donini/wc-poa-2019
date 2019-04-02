@@ -157,17 +157,15 @@ article .panel-content .wrap .entry-content h2 {
   display: none;
 }
 
-.home .post-217 .panel-content .wrap .entry-content {
-  text-align: center;
-}
-
 .home .post-217 .panel-content .wrap .entry-content p {
+  text-align: center;
   color: #fff;
+  margin: 0;
 }
 
 .home .post-217 .panel-content .wrap .entry-content:before, .home .post-217 .panel-content .wrap .entry-content:after {
   content: '';
-  display: block;
+  display: inline-block;
   height: 45px;
   width: 45px;
   background-color: #cb3031;

@@ -161,14 +161,15 @@ article {
                 display: none;
             }
             .entry-content {
-                text-align: center;
                 p {
+                    text-align: center;
                     color: $white;
+                    margin: 0;
                 }
                 &:before,
                 &:after {
                     content: '';
-                    display: block;
+                    display: inline-block;
                     height: 45px;
                     width: 45px;
                     background-color: $red;
