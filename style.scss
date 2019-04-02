@@ -42,7 +42,7 @@ h4 {
 }
 
 .edit-link {
-    display: none;
+    display: none !important;
 }
 
 .custom-header {
@@ -125,7 +125,8 @@ article {
                     text-transform: uppercase;
                 }
             }
-            .entry-content {
+            .entry-content,
+            .recent-posts {
                 width: 100% !important;
                 h2 {
                     font-size: $h4-size;
@@ -161,6 +162,7 @@ article {
                 display: none;
             }
             .entry-content {
+                position: relative;
                 p {
                     text-align: center;
                     color: $white;
@@ -175,14 +177,15 @@ article {
                     background-color: $red;
                     border: 5px solid $white;
                     border-radius: 100%;
+                    position: absolute;
                     top: 50%;
                     margin-top: -30px;
                 }
                 &:before {
-                    margin-left: -100px;
+                    left: -100px;
                 }
                 &:after {
-                    margin-right: -100px;
+                    right: -100px;
                 }
             }
         }
@@ -191,4 +194,34 @@ article {
 
 .home .post-211 {
     background-color: $light-gray;
+    .panel-content {
+        .wrap {
+            .entry-header {
+                text-align: center;
+            }
+            .recent-posts {
+                article.post {
+                    background-color: $white;
+                    border-radius: 50%;
+                    padding: 1em;
+                    .entry-meta {
+                        margin-bottom: 20px;
+                        padding-bottom: 20px;
+                        border-bottom: 1px solid $light-gray;
+                        a {
+                            color: $black;
+                        }
+                    }
+                    .entry-title {
+                        color: $red;
+                    }
+                    .entry-summary {
+                        p {
+                            color: $black;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

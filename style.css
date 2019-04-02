@@ -29,7 +29,7 @@ h4 {
 }
 
 .edit-link {
-  display: none;
+  display: none !important;
 }
 
 .custom-header .site-branding {
@@ -118,11 +118,13 @@ article .panel-content .wrap .entry-header .entry-title {
   text-transform: uppercase;
 }
 
-article .panel-content .wrap .entry-content {
+article .panel-content .wrap .entry-content,
+article .panel-content .wrap .recent-posts {
   width: 100% !important;
 }
 
-article .panel-content .wrap .entry-content h2 {
+article .panel-content .wrap .entry-content h2,
+article .panel-content .wrap .recent-posts h2 {
   font-size: 16px;
   color: #000;
   letter-spacing: 1px;
@@ -157,6 +159,10 @@ article .panel-content .wrap .entry-content h2 {
   display: none;
 }
 
+.home .post-217 .panel-content .wrap .entry-content {
+  position: relative;
+}
+
 .home .post-217 .panel-content .wrap .entry-content p {
   text-align: center;
   color: #fff;
@@ -171,19 +177,48 @@ article .panel-content .wrap .entry-content h2 {
   background-color: #cb3031;
   border: 5px solid #fff;
   border-radius: 100%;
+  position: absolute;
   top: 50%;
   margin-top: -30px;
 }
 
 .home .post-217 .panel-content .wrap .entry-content:before {
-  margin-left: -100px;
+  left: -100px;
 }
 
 .home .post-217 .panel-content .wrap .entry-content:after {
-  margin-right: -100px;
+  right: -100px;
 }
 
 .home .post-211 {
   background-color: #dcdcdc;
+}
+
+.home .post-211 .panel-content .wrap .entry-header {
+  text-align: center;
+}
+
+.home .post-211 .panel-content .wrap .recent-posts article.post {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 1em;
+}
+
+.home .post-211 .panel-content .wrap .recent-posts article.post .entry-meta {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.home .post-211 .panel-content .wrap .recent-posts article.post .entry-meta a {
+  color: #000;
+}
+
+.home .post-211 .panel-content .wrap .recent-posts article.post .entry-title {
+  color: #cb3031;
+}
+
+.home .post-211 .panel-content .wrap .recent-posts article.post .entry-summary p {
+  color: #000;
 }
 /*# sourceMappingURL=style.css.map */
