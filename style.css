@@ -51,8 +51,7 @@ h4 {
   background-size: contain;
   max-width: 520px;
   width: 100%;
-  max-height: 140px;
-  height: 100%;
+  height: 140px;
   margin: 0 auto;
 }
 
@@ -61,7 +60,8 @@ h4 {
 }
 
 .custom-header .site-branding .site-branding-text .site-description {
-  color: #000;
+  color: #6e6f70;
+  font-weight: 500px;
 }
 
 .navigation-top {
@@ -88,5 +88,31 @@ h4 {
 
 .navigation-top .menu-scroll-down {
   display: none;
+}
+
+article .panel-content .wrap .entry-header {
+  width: 100%;
+}
+
+article .panel-content .wrap .entry-header .entry-title {
+  font-size: 22px;
+  color: #cb3031;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+article .panel-content .wrap .entry-content {
+  width: 100%;
+}
+
+article .panel-content .wrap .entry-content h2 {
+  font-size: 18px;
+  color: #000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.home .twentyseventeen-panel {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
