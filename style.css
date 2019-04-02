@@ -91,11 +91,15 @@ h4 {
 }
 
 .navigation-top .menu-main-menu-container ul ul {
-  background-color: #dcdcdc;
+  background-color: #6e6f70;
 }
 
 .navigation-top .menu-scroll-down {
   display: none;
+}
+
+article {
+  border: 0;
 }
 
 article .panel-content .wrap {
@@ -143,7 +147,6 @@ article .panel-content .wrap .entry-content h2 {
 
 .home .post-217 {
   background-color: #cb3031;
-  color: #fff;
 }
 
 .home .post-217 .panel-content .wrap {
@@ -154,6 +157,14 @@ article .panel-content .wrap .entry-content h2 {
   display: none;
 }
 
+.home .post-217 .panel-content .wrap .entry-content {
+  text-align: center;
+}
+
+.home .post-217 .panel-content .wrap .entry-content p {
+  color: #fff;
+}
+
 .home .post-217 .panel-content .wrap .entry-content:before, .home .post-217 .panel-content .wrap .entry-content:after {
   content: '';
   display: block;
@@ -162,6 +173,16 @@ article .panel-content .wrap .entry-content h2 {
   background-color: #cb3031;
   border: 5px solid #fff;
   border-radius: 100%;
+  top: 50%;
+  margin-top: -30px;
+}
+
+.home .post-217 .panel-content .wrap .entry-content:before {
+  margin-left: -100px;
+}
+
+.home .post-217 .panel-content .wrap .entry-content:after {
+  margin-right: -100px;
 }
 
 .home .post-211 {
