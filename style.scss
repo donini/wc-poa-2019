@@ -51,7 +51,8 @@ input[type="password"] {
 }
 
 button {
-    background-clip: $mid-gray;
+    background-color: $mid-gray;
+    border-radius: 10px;
     color: $white;
     letter-spacing: 1px;
     font-weight: 500;
@@ -60,6 +61,12 @@ button {
         background-color: $dark-gray;
     }
 }
+
+.subscribe-email,
+.subscribe-submit {
+    margin-top: 15px;
+}
+
 .edit-link {
     display: none !important;
 }
@@ -155,6 +162,21 @@ article {
                     margin-bottom: 30px;
                 }
             }
+        }
+    }
+}
+
+.widget-area,
+.entry-content,
+.entry-summary,
+.comment-content,
+.posts-navigation {
+    a {
+        -wekit-box-shadow: none;
+        box-shadow: none;
+        &:hover {
+            -wekit-box-shadow: none;
+            box-shadow: none;
         }
     }
 }
@@ -268,6 +290,21 @@ footer {
             .widget_blog_subscription {
                 p {
                     margin: 0;
+                }
+            }
+            .wcb_widget_sponsors {
+                .sponsor-level {
+                    .sponsor-level-title {
+                        color: $mid-gray;
+                        text-transform: uppercase;
+                        margin-bottom: 15px;
+                        padding-bottom: 15px;
+                        border-bottom: 1px solid $light-gray;
+
+                    }
+                    .sponsor-logo {
+                        float: left;
+                    }
                 }
             }
         }
