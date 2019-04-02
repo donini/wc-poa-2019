@@ -279,7 +279,12 @@ article .panel-content .wrap .recent-posts h2 {
 }
 
 footer {
-  border: 0;
+  border: 0 !important;
+}
+
+footer .wrap {
+  width: 100%;
+  max-width: 1280px;
 }
 
 footer .widget-area .widget-column .widget {

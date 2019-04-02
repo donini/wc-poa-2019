@@ -277,7 +277,11 @@ article {
 }
 
 footer {
-    border: 0;
+    border: 0 !important;
+    .wrap {
+        width: 100%;
+        max-width: 1280px;
+    }
     .widget-area {
         .widget-column {
             .widget{
