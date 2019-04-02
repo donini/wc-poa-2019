@@ -1,4 +1,5 @@
 $red: #cb3031;
+$dark-gray: #222;
 $mid-gray:#6e6f70;
 $light-gray: #dcdcdc;
 $white: #fff;
@@ -41,6 +42,24 @@ h4 {
     color: $black;
 }
 
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border-radius: 10px;
+    border: 1px solid $light-gray;
+}
+
+button {
+    background-clip: $mid-gray;
+    color: $white;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    &:hover {
+        background-color: $dark-gray;
+    }
+}
 .edit-link {
     display: none !important;
 }
@@ -197,9 +216,9 @@ article {
     .panel-content {
         .wrap {
             padding: 3em !important;
-            .entry-header {
+            > .entry-header {
                 margin-bottom: 3em;
-                .entry-title {
+                > .entry-title {
                     text-align: center;
                     font-size: 54px;
                 }
@@ -207,8 +226,8 @@ article {
             .recent-posts {
                 article.post {
                     background-color: $white;
-                    border-radius: 50%;
-                    padding: 1.5em;
+                    border-radius: 30px;
+                    padding: 2em;
                     text-align: left;
                     .entry-meta {
                         margin-bottom: 20px;
@@ -232,5 +251,32 @@ article {
                 }
             }
         }
+    }
+}
+
+footer {
+    .widget-area {
+        .widget-column {
+            .widget{
+                margin-bottom: 20px;
+                .widget-title {
+                    color: $red !important;
+                    font-size: 24px !important;
+                    margin-bottom: .5em !important;
+                }
+            }
+            .widget_blog_subscription {
+                p {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+.site-info {
+    a {
+        text-transform: uppercase;
+        font-weight: 500;
     }
 }

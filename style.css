@@ -28,6 +28,25 @@ h4 {
   color: #000;
 }
 
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+}
+
+button {
+  background-clip: #6e6f70;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #222;
+}
+
 .edit-link {
   display: none !important;
 }
@@ -198,19 +217,19 @@ article .panel-content .wrap .recent-posts h2 {
   padding: 3em !important;
 }
 
-.home .post-211 .panel-content .wrap .entry-header {
+.home .post-211 .panel-content .wrap > .entry-header {
   margin-bottom: 3em;
 }
 
-.home .post-211 .panel-content .wrap .entry-header .entry-title {
+.home .post-211 .panel-content .wrap > .entry-header > .entry-title {
   text-align: center;
   font-size: 54px;
 }
 
 .home .post-211 .panel-content .wrap .recent-posts article.post {
   background-color: #fff;
-  border-radius: 50%;
-  padding: 1.5em;
+  border-radius: 30px;
+  padding: 2em;
   text-align: left;
 }
 
@@ -231,5 +250,24 @@ article .panel-content .wrap .recent-posts h2 {
 
 .home .post-211 .panel-content .wrap .recent-posts article.post .entry-summary p {
   color: #000;
+}
+
+footer .widget-area .widget-column .widget {
+  margin-bottom: 20px;
+}
+
+footer .widget-area .widget-column .widget .widget-title {
+  color: #cb3031 !important;
+  font-size: 24px !important;
+  margin-bottom: .5em !important;
+}
+
+footer .widget-area .widget-column .widget_blog_subscription p {
+  margin: 0;
+}
+
+.site-info a {
+  text-transform: uppercase;
+  font-weight: 500;
 }
 /*# sourceMappingURL=style.css.map */
