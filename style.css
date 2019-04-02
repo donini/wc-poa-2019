@@ -304,10 +304,6 @@ footer .widget-area .widget-column .wcb_widget_sponsors .sponsor-level .sponsor-
   border-top: 1px solid #dcdcdc;
 }
 
-footer .widget-area .widget-column .wcb_widget_sponsors .sponsor-level .sponsor-level-title:nth-of-type(1) {
-  border: 0;
-}
-
 footer .widget-area .widget-column .wcb_widget_sponsors .sponsor-level .sponsor-logo {
   float: left;
 }
