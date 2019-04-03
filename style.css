@@ -126,6 +126,7 @@ button:hover {
 
 .navigation-top .menu-main-menu-container ul li a:hover {
   background-color: #cb3031;
+  text-decoration: none;
 }
 
 .navigation-top .menu-main-menu-container ul ul {
@@ -214,6 +215,23 @@ article .panel-content .wrap {
 .home .post-208 .panel-content .wrap {
   padding-bottom: 2em;
   padding-top: 4em;
+}
+
+.home .post-208 .panel-content .wrap .entry-header .page-title,
+.home .post-208 .panel-content .wrap .entry-header .entry-title {
+  font-size: 28px !important;
+  color: #cb3031 !important;
+}
+
+.home .post-208 .panel-content .wrap .entry-content,
+.home .post-208 .panel-content .wrap .recent-posts {
+  width: 100% !important;
+}
+
+.home .post-208 .panel-content .wrap .entry-content > h2,
+.home .post-208 .panel-content .wrap .recent-posts > h2 {
+  font-size: 20px !important;
+  color: #000 !important;
 }
 
 .home .post-217 {

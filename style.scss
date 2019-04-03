@@ -134,6 +134,7 @@ button {
                     font-weight: 500;
                     &:hover {
                         background-color: $red;
+                        text-decoration: none;
                     }
                 }
             }
@@ -174,8 +175,6 @@ article {
 .recent-posts {
     width: 100% !important;
     > h2 {
-        // font-size: $h4-size !important;
-        // color: $black !important;
         letter-spacing: 1px;
         text-transform: uppercase;
         margin-bottom: 30px;
@@ -220,6 +219,21 @@ article {
         .wrap {
             padding-bottom: 2em;
             padding-top: 4em;
+            .entry-header {
+                .page-title,
+                .entry-title {
+                    font-size: $h1-size !important;
+                    color: $red !important;
+                }
+            }
+            .entry-content,
+            .recent-posts {
+                width: 100% !important;
+                > h2 {
+                    font-size: $h3-size !important;
+                    color: $black !important;
+                }
+            }
         }
     }
 }
