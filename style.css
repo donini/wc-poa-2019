@@ -257,12 +257,12 @@ article .panel-content .wrap {
 }
 
 .home .post-211 .panel-content .wrap > .entry-header {
-  margin-bottom: 3em;
+  margin-bottom: 3em !important;
 }
 
 .home .post-211 .panel-content .wrap > .entry-header > .entry-title {
   text-align: center;
-  font-size: 54px;
+  font-size: 54px !important;
 }
 
 .home .post-211 .panel-content .wrap .recent-posts article.post {
