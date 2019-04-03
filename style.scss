@@ -148,7 +148,7 @@ article {
 
 .page-header,
 .entry-header {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
     width: 100% !important;
     .page-title,
     .entry-title {
@@ -161,9 +161,9 @@ article {
 .entry-content,
 .recent-posts {
     width: 100% !important;
-    h2 {
-        font-size: $h4-size;
-        color: $black;
+    > h2 {
+        font-size: $h4-size !important;
+        color: $black !important;
         letter-spacing: 1px;
         text-transform: uppercase;
         margin-bottom: 30px;
