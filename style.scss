@@ -73,7 +73,7 @@ button {
 
 .custom-header {
     .site-branding {
-        margin-bottom: -105px !important;
+        margin-bottom: -76px !important;
         bottom: 50% !important;
         .site-branding-text {
             display: block;
@@ -170,10 +170,16 @@ article {
     }
 }
 
+.single-featured-image-header {
+    img {
+        margin-top: 30px;
+    }
+}
+
 .content-area {
     .site-main {
         article {
-            width: 100%;
+            width: 100% !important;
         }
     }
 }
