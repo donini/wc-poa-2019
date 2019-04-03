@@ -25,21 +25,33 @@ p {
 h1 {
     font-size: $h1-size !important;
     color: $red !important;
+    font-weight: 600;
 }
 
 h2 {
     font-size: $h2-size !important;
     color: $red !important;
+    font-weight: 600;
 }
 
 h3 {
     font-size: $h3-size;
-    color: $black;
+    color: $red;
+    font-weight: 600;
 }
 
 h4 {
     font-size: $h4-size;
-    color: $black;
+    color: $red;
+    font-weight: 600;
+}
+
+a {
+    color: $red !important;
+    font-weight: 500;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 
@@ -162,8 +174,8 @@ article {
 .recent-posts {
     width: 100% !important;
     > h2 {
-        font-size: $h4-size !important;
-        color: $black !important;
+        // font-size: $h4-size !important;
+        // color: $black !important;
         letter-spacing: 1px;
         text-transform: uppercase;
         margin-bottom: 30px;
