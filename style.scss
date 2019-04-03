@@ -138,6 +138,7 @@ button {
 
 article {
     border: 0;
+    width: 100%;
     .panel-content {
         .wrap {
             max-width: 840px;
@@ -145,9 +146,11 @@ article {
     }
 }
 
+.page-header,
 .entry-header {
     margin-bottom: 0;
     width: 100% !important;
+    .page-title,
     .entry-title {
         font-size: $h2-size !important;
         color: $red !important;
@@ -164,6 +167,14 @@ article {
         letter-spacing: 1px;
         text-transform: uppercase;
         margin-bottom: 30px;
+    }
+}
+
+.content-area {
+    .site-main {
+        article {
+            width: 100%;
+        }
     }
 }
 

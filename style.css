@@ -125,17 +125,22 @@ button:hover {
 
 article {
   border: 0;
+  width: 100%;
 }
 
 article .panel-content .wrap {
   max-width: 840px;
 }
 
+.page-header,
 .entry-header {
   margin-bottom: 0;
   width: 100% !important;
 }
 
+.page-header .page-title,
+.page-header .entry-title,
+.entry-header .page-title,
 .entry-header .entry-title {
   font-size: 24px !important;
   color: #cb3031 !important;
@@ -155,6 +160,10 @@ article .panel-content .wrap {
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 30px;
+}
+
+.content-area .site-main article {
+  width: 100%;
 }
 
 .widget-area a,
