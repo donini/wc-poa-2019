@@ -47,7 +47,7 @@ h4 {
 }
 
 a {
-    color: $red !important;
+    color: $red;
     font-weight: 500;
     &:hover {
         text-decoration: underline;
@@ -127,7 +127,7 @@ button {
             li {
                 a {
                     text-transform: uppercase;
-                    color: $white;
+                    color: $white !important;
                     font-size: $menu-size;
                     padding: 1.37em 1.25em;
                     letter-spacing: 1px;
