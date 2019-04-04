@@ -64,7 +64,10 @@ a {
 
 input[type="text"],
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+input[type="tel"],
+textarea {
+    width: 100% !important;
     border-radius: 10px;
     border: 1px solid $light-gray;
 }
