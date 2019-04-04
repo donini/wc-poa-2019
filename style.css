@@ -1,52 +1,42 @@
 body {
   background-color: #fff;
-  font-family: 'Quicksand', sans-serif;
-}
+  font-family: 'Quicksand', sans-serif; }
 
 p {
   font-size: 18px;
-  color: #000;
-}
+  color: #000; }
 
 h1 {
   font-size: 28px !important;
   color: #cb3031 !important;
-  font-weight: 600;
-}
+  font-weight: 600; }
 
 h2 {
   font-size: 24px !important;
   color: #cb3031 !important;
-  font-weight: 600;
-}
+  font-weight: 600; }
 
 h3 {
   font-size: 20px;
   color: #cb3031;
-  font-weight: 600;
-}
+  font-weight: 600; }
 
 h4 {
   font-size: 16px;
   color: #cb3031;
-  font-weight: 600;
-}
+  font-weight: 600; }
 
 a {
   color: #cb3031;
-  font-weight: 500;
-}
-
-a:hover {
-  text-decoration: underline;
-}
+  font-weight: 500; }
+  a:hover {
+    text-decoration: underline; }
 
 input[type="text"],
 input[type="email"],
 input[type="password"] {
   border-radius: 10px;
-  border: 1px solid #dcdcdc;
-}
+  border: 1px solid #dcdcdc; }
 
 button {
   background-color: #6e6f70;
@@ -54,133 +44,108 @@ button {
   color: #fff;
   letter-spacing: 1px;
   font-weight: 500;
-  text-transform: uppercase;
-}
-
-button:hover {
-  background-color: #222;
-}
+  text-transform: uppercase; }
+  button:hover {
+    background-color: #222; }
 
 #subscribe-email,
 #subscribe-submit {
-  margin-top: 15px;
-}
+  margin-top: 15px; }
 
 .edit-link {
-  display: none !important;
-}
+  display: none !important; }
 
+.custom-header .custom-header-media:before {
+  height: 33%; }
 .custom-header .site-branding {
   margin-bottom: -76px !important;
-  bottom: 50% !important;
-}
-
-.custom-header .site-branding .site-branding-text {
-  display: block;
-  text-align: center;
-}
-
-.custom-header .site-branding .site-branding-text .site-title {
-  margin-bottom: 40px;
-}
-
-.custom-header .site-branding .site-branding-text .site-title:before {
-  content: '';
-  display: block;
-  background-image: url(https://2019.portoalegre.wordcamp.org/files/2019/04/wc-poa-2019.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 520px;
-  width: 100%;
-  height: 140px;
-  margin: 0 auto;
-}
-
-.custom-header .site-branding .site-branding-text .site-title a {
-  display: none;
-}
-
-.custom-header .site-branding .site-branding-text .site-description {
-  color: #6e6f70;
-  font-weight: 500px;
-}
+  bottom: 50% !important; }
+  .custom-header .site-branding .site-branding-text {
+    display: block;
+    text-align: center; }
+    .custom-header .site-branding .site-branding-text .site-title {
+      margin-bottom: 40px; }
+      .custom-header .site-branding .site-branding-text .site-title:before {
+        content: '';
+        display: block;
+        background-image: url(https://2019.portoalegre.wordcamp.org/files/2019/04/wc-poa-2019.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-width: 520px;
+        width: 100%;
+        height: 140px;
+        margin: 0 auto; }
+      .custom-header .site-branding .site-branding-text .site-title a {
+        display: none; }
+    .custom-header .site-branding .site-branding-text .site-description {
+      color: #6e6f70;
+      font-weight: 500px; }
 
 .navigation-top {
   background-color: #6e6f70;
-  border: 0;
-}
-
-.navigation-top .wrap {
-  padding: 0;
-}
-
-.navigation-top .menu-main-menu-container ul li a {
-  text-transform: uppercase;
-  color: #fff !important;
-  font-size: 18px;
-  padding: 1.37em 1.25em;
-  letter-spacing: 1px;
-  font-weight: 500;
-}
-
-.navigation-top .menu-main-menu-container ul li a:hover {
-  background-color: #cb3031;
-  text-decoration: none;
-}
-
-.navigation-top .menu-main-menu-container ul ul {
-  background-color: #6e6f70;
-}
-
-.navigation-top .menu-scroll-down {
-  display: none;
-}
+  border: 0; }
+  .navigation-top .wrap {
+    padding: 0; }
+  .navigation-top .menu-toggle {
+    color: #fff; }
+  .navigation-top .menu-main-menu-container ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #cb3031 !important;
+    font-size: 18px;
+    padding: 1.37em 1.25em;
+    letter-spacing: 1px;
+    font-weight: 500; }
+    @media screen and (min-width: 48em) {
+      .navigation-top .menu-main-menu-container ul li a {
+        color: #fff !important; }
+        .navigation-top .menu-main-menu-container ul li a:hover {
+          background-color: #cb3031; } }
+  .navigation-top .menu-main-menu-container ul ul {
+    background-color: #6e6f70; }
+    .navigation-top .menu-main-menu-container ul ul li a {
+      color: #fff !important; }
+  .navigation-top .dropdown-toggle {
+    color: #6e6f70;
+    font-size: 30px;
+    padding: 0.7em; }
+  .navigation-top .menu-scroll-down {
+    display: none; }
 
 article {
   border: 0;
-  width: 100%;
-}
-
-article .panel-content .wrap {
-  max-width: 840px;
-}
+  width: 100%; }
+  article .panel-content .wrap {
+    max-width: 840px; }
 
 .page-header,
 .entry-header {
   margin-bottom: 0 !important;
-  width: 100% !important;
-}
-
-.page-header .page-title,
-.page-header .entry-title,
-.entry-header .page-title,
-.entry-header .entry-title {
-  font-size: 24px !important;
-  color: #cb3031 !important;
-  letter-spacing: 1px !important;
-  text-transform: uppercase !important;
-}
+  width: 100% !important; }
+  .page-header .page-title,
+  .page-header .entry-title,
+  .entry-header .page-title,
+  .entry-header .entry-title {
+    font-size: 24px !important;
+    color: #cb3031 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important; }
 
 .entry-content,
 .recent-posts {
-  width: 100% !important;
-}
-
-.entry-content > h2,
-.recent-posts > h2 {
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-}
+  width: 100% !important; }
+  .entry-content > h2,
+  .recent-posts > h2 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
 
 .single-featured-image-header img {
-  margin-top: 30px;
-}
+  margin-top: 30px; }
 
 .content-area .site-main article {
-  width: 100% !important;
-}
+  width: 100% !important; }
 
 .widget-area a,
 .entry-content a,
@@ -188,175 +153,114 @@ article .panel-content .wrap {
 .comment-content a,
 .posts-navigation a {
   -wekit-box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-}
-
-.widget-area a:hover,
-.entry-content a:hover,
-.entry-summary a:hover,
-.comment-content a:hover,
-.posts-navigation a:hover {
-  -wekit-box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-}
+  box-shadow: none !important; }
+  .widget-area a:hover,
+  .entry-content a:hover,
+  .entry-summary a:hover,
+  .comment-content a:hover,
+  .posts-navigation a:hover {
+    -wekit-box-shadow: none !important;
+    box-shadow: none !important; }
 
 .home .post-208 {
-  text-align: center;
-}
-
-.home .post-208 .panel-content {
-  background-image: url(https://2019.portoalegre.wordcamp.org/files/2019/04/logo-fundo2.png);
-  background-repeat: no-repeat;
-  background-position: center -50%;
-}
-
-.home .post-208 .panel-content .wrap {
-  padding-bottom: 2em;
-  padding-top: 4em;
-}
-
-.home .post-208 .panel-content .wrap .entry-header .page-title,
-.home .post-208 .panel-content .wrap .entry-header .entry-title {
-  font-size: 28px !important;
-  color: #cb3031 !important;
-}
-
-.home .post-208 .panel-content .wrap .entry-content,
-.home .post-208 .panel-content .wrap .recent-posts {
-  width: 100% !important;
-}
-
-.home .post-208 .panel-content .wrap .entry-content > h2,
-.home .post-208 .panel-content .wrap .recent-posts > h2 {
-  font-size: 20px !important;
-  color: #000 !important;
-}
+  text-align: center; }
+  .home .post-208 .panel-content {
+    background-image: url(https://2019.portoalegre.wordcamp.org/files/2019/04/logo-fundo2.png);
+    background-repeat: no-repeat;
+    background-position: center -50%; }
+    .home .post-208 .panel-content .wrap {
+      padding-bottom: 2em;
+      padding-top: 4em; }
+      .home .post-208 .panel-content .wrap .entry-header .page-title,
+      .home .post-208 .panel-content .wrap .entry-header .entry-title {
+        font-size: 28px !important;
+        color: #cb3031 !important; }
+      .home .post-208 .panel-content .wrap .entry-content,
+      .home .post-208 .panel-content .wrap .recent-posts {
+        width: 100% !important; }
+        .home .post-208 .panel-content .wrap .entry-content > h2,
+        .home .post-208 .panel-content .wrap .recent-posts > h2 {
+          font-size: 20px !important;
+          color: #000 !important; }
 
 .home .post-217 {
-  background-color: #cb3031;
-}
-
-.home .post-217 .panel-content .wrap {
-  padding: 3em !important;
-}
-
-.home .post-217 .panel-content .wrap .entry-header {
-  display: none;
-}
-
-.home .post-217 .panel-content .wrap .entry-content {
-  position: relative;
-}
-
-.home .post-217 .panel-content .wrap .entry-content p {
-  text-align: center;
-  color: #fff;
-  margin: 0;
-}
-
-.home .post-217 .panel-content .wrap .entry-content:before, .home .post-217 .panel-content .wrap .entry-content:after {
-  content: '';
-  display: inline-block;
-  height: 45px;
-  width: 45px;
-  background-color: #cb3031;
-  border: 5px solid #fff;
-  border-radius: 100%;
-  position: absolute;
-  top: 50%;
-  margin-top: -30px;
-}
-
-.home .post-217 .panel-content .wrap .entry-content:before {
-  left: -100px;
-}
-
-.home .post-217 .panel-content .wrap .entry-content:after {
-  right: -100px;
-}
+  background-color: #cb3031; }
+  .home .post-217 .panel-content .wrap {
+    padding: 3em !important; }
+    .home .post-217 .panel-content .wrap .entry-header {
+      display: none; }
+    .home .post-217 .panel-content .wrap .entry-content {
+      position: relative; }
+      .home .post-217 .panel-content .wrap .entry-content p {
+        text-align: center;
+        color: #fff;
+        margin: 0; }
+      .home .post-217 .panel-content .wrap .entry-content:before, .home .post-217 .panel-content .wrap .entry-content:after {
+        content: '';
+        display: inline-block;
+        height: 45px;
+        width: 45px;
+        background-color: #cb3031;
+        border: 5px solid #fff;
+        border-radius: 100%;
+        position: absolute;
+        top: 50%;
+        margin-top: -30px; }
+      .home .post-217 .panel-content .wrap .entry-content:before {
+        left: -100px; }
+      .home .post-217 .panel-content .wrap .entry-content:after {
+        right: -100px; }
 
 .home .post-211 {
-  background-color: #dcdcdc;
-}
-
-.home .post-211 .panel-content .wrap {
-  padding: 3em !important;
-}
-
-.home .post-211 .panel-content .wrap > .entry-header {
-  margin-bottom: 3em !important;
-}
-
-.home .post-211 .panel-content .wrap > .entry-header > .entry-title {
-  text-align: center;
-  font-size: 54px !important;
-}
-
-.home .post-211 .panel-content .wrap .recent-posts article.post {
-  background-color: #fff;
-  border-radius: 30px;
-  padding: 2em;
-  text-align: left;
-}
-
-.home .post-211 .panel-content .wrap .recent-posts article.post .entry-meta {
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #dcdcdc;
-}
-
-.home .post-211 .panel-content .wrap .recent-posts article.post .entry-meta a {
-  color: #000;
-}
-
-.home .post-211 .panel-content .wrap .recent-posts article.post .entry-title a {
-  color: #cb3031;
-  font-weight: 500;
-}
-
-.home .post-211 .panel-content .wrap .recent-posts article.post .entry-summary p {
-  color: #000;
-}
+  background-color: #dcdcdc; }
+  .home .post-211 .panel-content .wrap {
+    padding: 3em !important; }
+    .home .post-211 .panel-content .wrap > .entry-header {
+      margin-bottom: 3em !important; }
+      .home .post-211 .panel-content .wrap > .entry-header > .entry-title {
+        text-align: center;
+        font-size: 54px !important; }
+    .home .post-211 .panel-content .wrap .recent-posts article.post {
+      background-color: #fff;
+      border-radius: 30px;
+      padding: 2em;
+      text-align: left; }
+      .home .post-211 .panel-content .wrap .recent-posts article.post .entry-meta {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #dcdcdc; }
+        .home .post-211 .panel-content .wrap .recent-posts article.post .entry-meta a {
+          color: #000; }
+      .home .post-211 .panel-content .wrap .recent-posts article.post .entry-title a {
+        color: #cb3031;
+        font-weight: 500; }
+      .home .post-211 .panel-content .wrap .recent-posts article.post .entry-summary p {
+        color: #000; }
 
 footer {
-  border: 0 !important;
-}
-
-footer .wrap {
-  width: 100%;
-  max-width: 1280px;
-}
-
-footer .widget-area .widget-column .widget {
-  margin-bottom: 20px;
-}
-
-footer .widget-area .widget-column .widget .widget-title {
-  color: #cb3031 !important;
-  font-size: 24px !important;
-  margin-bottom: .5em !important;
-}
-
-footer .widget-area .widget-column .widget_blog_subscription p {
-  margin: 0;
-}
-
-footer .widget-area .widget-column .wcb_widget_sponsors .sponsor-level .sponsor-level-title {
-  color: #6e6f70;
-  text-transform: uppercase;
-  margin-top: 15px;
-  padding-top: 15px;
-  border-top: 1px solid #dcdcdc;
-}
-
-footer .widget-area .widget-column .wcb_widget_sponsors .sponsor-level .sponsor-logo {
-  float: left;
-}
+  border: 0 !important; }
+  footer .wrap {
+    width: 100%;
+    max-width: 1280px; }
+  footer .widget-area .widget-column .widget {
+    margin-bottom: 20px; }
+    footer .widget-area .widget-column .widget .widget-title {
+      color: #cb3031 !important;
+      font-size: 24px !important;
+      margin-bottom: .5em !important; }
+  footer .widget-area .widget-column .widget_blog_subscription p {
+    margin: 0; }
+  footer .widget-area .widget-column .wcb_widget_sponsors .sponsor-level .sponsor-level-title {
+    color: #6e6f70;
+    text-transform: uppercase;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #dcdcdc; }
+  footer .widget-area .widget-column .wcb_widget_sponsors .sponsor-level .sponsor-logo {
+    float: left; }
 
 .site-info a {
   text-transform: uppercase;
-  font-weight: 500;
-}
+  font-weight: 500; }
+
 /*# sourceMappingURL=style.css.map */

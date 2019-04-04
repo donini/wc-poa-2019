@@ -5,6 +5,13 @@ $light-gray: #dcdcdc;
 $white: #fff;
 $black: #000;
 
+$xs-screen: 30em; // 480px
+$sm-screen: 48em; // 768px
+$md-screen: 55em; // 880px
+$lg-screen: 67em; // 1072px
+$xlg-screen: 79em; // 1264px
+
+
 $paragraph-size: 18px;
 $h1-size: 28px;
 $h2-size: 24px;
@@ -84,6 +91,11 @@ button {
 }
 
 .custom-header {
+    .custom-header-media {
+        &:before {
+            height: 33%;
+        }
+    }
     .site-branding {
         margin-bottom: -76px !important;
         bottom: 50% !important;
@@ -122,26 +134,44 @@ button {
     .wrap {
         padding: 0;
     }
+    .menu-toggle {
+        color: $white;
+    }
     .menu-main-menu-container {
         ul {
             li {
                 a {
+                    text-decoration: none;
                     text-transform: uppercase;
-                    color: $white !important;
+                    color: $red !important;
                     font-size: $menu-size;
                     padding: 1.37em 1.25em;
                     letter-spacing: 1px;
                     font-weight: 500;
-                    &:hover {
-                        background-color: $red;
-                        text-decoration: none;
+                    
+                    @media screen and ( min-width: $sm-screen ) {
+                        color: $white !important;
+
+                        &:hover {
+                            background-color: $red;
+                        }
                     }
                 }
             }
             ul {
                 background-color: $mid-gray;
+                li {
+                    a {
+                        color: $white !important;
+                    }
+                }
             }
         }
+    }
+    .dropdown-toggle {
+        color: $mid-gray;
+        font-size: 30px;
+        padding: 0.7em;
     }
     .menu-scroll-down {
         display: none;
