@@ -57,30 +57,32 @@ button {
 
 .custom-header .custom-header-media:before {
   height: 33%; }
-.custom-header .site-branding {
+.home .custom-header .site-branding {
   margin-bottom: -76px !important;
   bottom: 50% !important; }
-  .custom-header .site-branding .site-branding-text {
-    display: block;
-    text-align: center; }
-    .custom-header .site-branding .site-branding-text .site-title {
-      margin-bottom: 40px; }
-      .custom-header .site-branding .site-branding-text .site-title:before {
-        content: '';
-        display: block;
-        background-image: url(https://2019.portoalegre.wordcamp.org/files/2019/04/wc-poa-2019.png);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        max-width: 520px;
-        width: 100%;
-        height: 140px;
-        margin: 0 auto; }
-      .custom-header .site-branding .site-branding-text .site-title a {
-        display: none; }
-    .custom-header .site-branding .site-branding-text .site-description {
-      color: #6e6f70;
-      font-weight: 500px; }
+.custom-header .site-branding .site-branding-text {
+  display: block;
+  text-align: center; }
+  .custom-header .site-branding .site-branding-text .site-title {
+    margin-bottom: 40px; }
+    .custom-header .site-branding .site-branding-text .site-title:before {
+      content: '';
+      display: block;
+      background-image: url(https://2019.portoalegre.wordcamp.org/files/2019/04/wc-poa-2019.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      max-width: 520px;
+      width: 100%;
+      height: 140px;
+      margin: 0 auto; }
+    .custom-header .site-branding .site-branding-text .site-title a {
+      display: none; }
+  .custom-header .site-branding .site-branding-text .site-description {
+    color: #6e6f70;
+    font-weight: 500px; }
+    body:not(.home) .custom-header .site-branding .site-branding-text .site-description {
+      display: none; }
 
 .navigation-top {
   background-color: #6e6f70;

@@ -97,8 +97,10 @@ button {
         }
     }
     .site-branding {
-        margin-bottom: -76px !important;
-        bottom: 50% !important;
+        .home & {
+            margin-bottom: -76px !important;
+            bottom: 50% !important;
+        }
         .site-branding-text {
             display: block;
             text-align: center;
@@ -121,6 +123,9 @@ button {
                 }
             }
             .site-description {
+                body:not(.home) & {
+                    display: none;
+                }
                 color: $mid-gray;
                 font-weight: 500px
             }
