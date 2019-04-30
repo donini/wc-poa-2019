@@ -406,15 +406,18 @@ footer {
 }
 
 /* SPONSORS */
-.wcorg-sponsor-description {
-    img  {
-        float: left;
-        width: 300px;
-        max-height: initial;
-    }
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
+.wcorg-sponsor {
+    margin-bottom: 30px;
+    .wcorg-sponsor-description {
+        img  {
+            float: left;
+            width: 300px;
+            max-height: initial;
+        }
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
     }
 }

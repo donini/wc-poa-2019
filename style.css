@@ -392,13 +392,17 @@ footer .widget-area .widget-column .wcb_widget_sponsors .sponsor-level .sponsor-
 }
 
 /* SPONSORS */
-.wcorg-sponsor-description img {
+.wcorg-sponsor {
+  margin-bottom: 30px;
+}
+
+.wcorg-sponsor .wcorg-sponsor-description img {
   float: left;
   width: 300px;
   max-height: initial;
 }
 
-.wcorg-sponsor-description:after {
+.wcorg-sponsor .wcorg-sponsor-description:after {
   content: "";
   display: table;
   clear: both;
