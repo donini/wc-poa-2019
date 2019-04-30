@@ -399,8 +399,8 @@ footer .widget-area .widget-column .wcb_widget_sponsors .sponsor-level .sponsor-
 }
 
 .wcorg-sponsor-description:after {
+  content: "";
+  display: table;
   clear: both;
-  content: '';
-  display: block;
 }
 /*# sourceMappingURL=style.css.map */

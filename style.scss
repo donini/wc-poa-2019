@@ -413,8 +413,8 @@ footer {
         max-height: initial;
     }
     &:after {
+        content: "";
+        display: table;
         clear: both;
-        content: '';
-        display: block;
     }
 }
