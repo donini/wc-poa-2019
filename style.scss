@@ -404,3 +404,17 @@ footer {
         font-weight: 500;
     }
 }
+
+/* SPONSORS */
+.wcorg-sponsor-description {
+    img  {
+        float: left;
+        width: 300px;
+        max-height: initial;
+    }
+    &:after {
+        clear: both;
+        content: '';
+        display: block;
+    }
+}

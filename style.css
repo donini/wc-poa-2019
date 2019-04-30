@@ -390,4 +390,17 @@ footer .widget-area .widget-column .wcb_widget_sponsors .sponsor-level .sponsor-
   text-transform: uppercase;
   font-weight: 500;
 }
+
+/* SPONSORS */
+.wcorg-sponsor-description img {
+  float: left;
+  width: 300px;
+  max-height: initial;
+}
+
+.wcorg-sponsor-description:after {
+  clear: both;
+  content: '';
+  display: block;
+}
 /*# sourceMappingURL=style.css.map */
